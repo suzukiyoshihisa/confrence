@@ -60,6 +60,10 @@ a {
   color: #ffffff;
 }
 
+.pc {
+  display: block;
+}
+
 .sp {
   display: none;
 }
@@ -107,6 +111,10 @@ section {
   margin: 0 auto;
 }
 
+#thanks .thanks__card {
+  width: 75%;
+}
+
 #thanks .thanks__cardbg {
   background: #DCE35B;
   background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
@@ -114,7 +122,17 @@ section {
 }
 
 @media screen and (max-width: 480px) {
-  .sp {
+  body .pc {
+    display: none;
+  }
+  body .sp {
     display: block;
+  }
+  body .fixed-bottom {
+    right: 10px;
+    left: auto;
+  }
+  #thanks .thanks__card {
+    width: 100%;
   }
 }

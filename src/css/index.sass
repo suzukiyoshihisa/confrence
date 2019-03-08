@@ -2,6 +2,9 @@
 @import './module.sass'
 @import './color.sass'
 
+.pc
+  display: block
+
 .sp
   display: none
 
@@ -44,11 +47,26 @@ section
     margin: 0 auto
 
 #thanks
+  .thanks__card
+    width: 75%
+
   .thanks__cardbg
     background: #DCE35B  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #45B649, #DCE35B)  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #45B649, #DCE35B) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 @media screen and (max-width: 480px)
-  .sp
-    display: block
+  body
+    .pc
+      display: none
+
+    .sp
+      display: block
+
+    .fixed-bottom
+      right: 10px
+      left: auto
+
+  #thanks
+    .thanks__card
+      width: 100%
