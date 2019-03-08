@@ -1,0 +1,120 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, code, del, em, img, small, strike, strong, sub, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input, button, textarea {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: #ffffff;
+  font-weight: bold;
+  width: 210px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 6px;
+}
+
+.button:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.button--primary {
+  background-color: #00ff9c;
+  color: #ffffff;
+}
+
+.sp {
+  display: none;
+}
+
+section {
+  margin-top: -60px;
+  padding-top: 60px;
+}
+
+.header__logo {
+  width: 100px;
+}
+
+.nav-bg {
+  background: #DCE35B;
+  background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
+  background: linear-gradient(to right, #45B649, #DCE35B);
+}
+
+#main_visual h4 {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+#main_visual .carousel-indicators li {
+  background-color: #ffffff;
+}
+
+#main_visual .carousel-caption-bg {
+  border-radius: 10px;
+  opacity: 0.9;
+  background: #DCE35B;
+  background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
+  background: linear-gradient(to right, #45B649, #DCE35B);
+}
+
+#main_visual .carousel__icon {
+  background-color: #45B649;
+}
+
+#usage .usage-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+#thanks .thanks__cardbg {
+  background: #DCE35B;
+  background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
+  background: linear-gradient(to right, #45B649, #DCE35B);
+}
+
+@media screen and (max-width: 480px) {
+  .sp {
+    display: block;
+  }
+}
